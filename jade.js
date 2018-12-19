@@ -1238,6 +1238,7 @@ jade_defs.top_level = function(jade) {
             if (zy < 16) this.zoomin();
             else if (zy < 32) this.zoomout();
             else this.zoomall();
+            return true;
         }
         else return false;
 
